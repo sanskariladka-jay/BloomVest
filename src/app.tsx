@@ -21,7 +21,7 @@ export default function App() {
         }}
       >
         <h1>BloomVest Website Working Successfully 🚀</h1>
-        <p>Your Vite + React deployment is now ready on :contentReference[oaicite:0]{index=0}</p>
+        <p>Your Vite + React deployment is now ready on Vercel</p>
       </div>
     </div>
   );
