@@ -87,13 +87,13 @@ function Index() {
                 href={REGISTRATION_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--gradient-green)] px-6 sm:px-8 py-3.5 sm:py-4 font-bold text-white shadow-[var(--shadow-green)] transition hover:scale-105"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--gradient-green)] px-6 sm:px-8 py-3.5 sm:py-4 font-bold text-black shadow-[var(--shadow-green)] transition hover:scale-105"
               >
                 Register Now <ArrowRight className="h-5 w-5" />
               </a>
               <a
                 href="#plans"
-                className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-primary px-6 sm:px-8 py-3.5 sm:py-4 font-bold text-primary transition hover:bg-primary hover:text-primary-foreground"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--gradient-green)] px-6 sm:px-8 py-3.5 sm:py-4 font-bold text-black shadow-[var(--shadow-green)] transition hover:scale-105"
               >
                 View Plans
               </a>
@@ -141,16 +141,16 @@ function Index() {
                 <div className={`mb-4 flex h-12 w-12 items-center justify-center rounded-xl ${featured ? "bg-white/15" : "bg-secondary/10 text-secondary"}`}>
                   <Icon className="h-6 w-6" />
                 </div>
-                <div className={`text-xs uppercase tracking-wider ${featured ? "text-white/70" : "text-muted-foreground"}`}>Spent</div>
-                <div className={`text-2xl font-bold ${featured ? "text-white" : "text-primary"}`}>{p.spent}</div>
+                <div className={`text-xs uppercase tracking-wider ${featured ? "text-black/70" : "text-muted-foreground"}`}>Spent</div>
+                <div className={`text-2xl font-bold ${featured ? "text-black" : "text-primary"}`}>{p.spent}</div>
                 <div className={`my-3 h-px w-full ${featured ? "bg-white/20" : "bg-border"}`} />
-                <div className={`text-xs uppercase tracking-wider ${featured ? "text-white/70" : "text-muted-foreground"}`}>You Get</div>
-                <div className={`text-3xl font-black ${featured ? "text-white" : "text-secondary"}`}>{p.get}</div>
+                <div className={`text-xs uppercase tracking-wider ${featured ? "text-black/70" : "text-muted-foreground"}`}>You Get</div>
+                <div className={`text-3xl font-black ${featured ? "text-black" : "text-secondary"}`}>{p.get}</div>
                 <a
                   href={REGISTRATION_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`mt-5 inline-flex items-center gap-1 text-sm font-bold ${featured ? "text-white" : "text-secondary"}`}
+                  className={`mt-5 inline-flex items-center gap-1 text-sm font-bold ${featured ? "text-black" : "text-secondary"}`}
                 >
                   Invest now <ArrowRight className="h-4 w-4" />
                 </a>
@@ -172,7 +172,7 @@ function Index() {
                 Money settles to your account in{" "}
                 <span className="text-secondary">15 Days</span> after investing.
               </h3>
-              <p className="mt-3 sm:mt-4 text-sm sm:text-base text-white/70">
+              <p className="mt-3 sm:mt-4 text-sm sm:text-base text-black/70">
                 No delays. No hidden fees. Just consistent, reliable returns — every single time.
               </p>
             </div>
@@ -186,7 +186,7 @@ function Index() {
                     </div>
                     <div>
                       <div className="font-bold text-sm sm:text-base">{f.title}</div>
-                      <div className="text-xs sm:text-sm text-white/70">{f.desc}</div>
+                      <div className="text-xs sm:text-sm text-black/70">{f.desc}</div>
                     </div>
                   </div>
                 );
@@ -211,7 +211,7 @@ function Index() {
               href={REGISTRATION_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 sm:mt-8 inline-flex items-center gap-2 sm:gap-3 rounded-full bg-[var(--gradient-hero)] px-6 sm:px-10 py-4 sm:py-5 text-base sm:text-lg font-bold text-primary-foreground shadow-[var(--shadow-elegant)] transition hover:scale-105"
+              className="mt-6 sm:mt-8 inline-flex items-center gap-2 sm:gap-3 rounded-full bg-[var(--gradient-green)] px-6 sm:px-10 py-4 sm:py-5 text-base sm:text-lg font-bold text-black shadow-[var(--shadow-green)] transition hover:scale-105"
             >
               Open Registration Form <ArrowRight className="h-5 w-5" />
             </a>
@@ -228,7 +228,7 @@ function Index() {
           <div className="text-sm font-bold tracking-[0.3em] text-secondary">
             INVEST TODAY, GROW TOMORROW
           </div>
-          <div className="mt-2 text-xs text-white/60">
+          <div className="mt-2 text-xs text-black/60">
             © {new Date().getFullYear()} BloomVest Capital. All rights reserved.
           </div>
         </div>
